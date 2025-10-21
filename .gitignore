@@ -1,0 +1,47 @@
+﻿# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dylib
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing / coverage / typing
+.pytest_cache/
+.coverage
+coverage.xml
+.mypy_cache/
+.pyright/
+.pyre/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# --- Editors/IDE ---
+# Keep VS Code workspace settings you actually share:
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.idea/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Webots (generated stuff) ---
+controllers/*/build/
+**/.webots_cache/
